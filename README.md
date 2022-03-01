@@ -2,7 +2,7 @@
 
 Example: 
 - https://7g26j7k4dpbdvedfmaj82dp5sc.d3akash.cloud
-- https://www.knwin.com ([same site](https://github.com/knwins/akash-hello-world/deploy.yml#L11), uses a CNAME and cloudflare SSL)
+- https://www.knwin.com ([same site](https://github.com/knwins/akash-hello-world/blob/master/deploy.yml#L11), uses a CNAME and cloudflare SSL)
 
 This is an example of how to run a simple HTML/CSS/JS site on Akash. I wrote this to document the process for myself and it's my first time working with Akash, so please treat accordingly. 
 
@@ -67,8 +67,8 @@ Note Akash needs a public repository for now. Also note that you should specify 
 ```
 # Change below to your user/repo
 
-docker build . -t tombeynon/akash-hello-world:release-v0.1.0
-docker push tombeynon/akash-hello-world:release-v0.1.0
+docker build . -t knwins/akash-hello-world:release-v0.1.0
+docker push knwins/akash-hello-world:release-v0.1.0
 ```
 
 You can now update deploy.yml to use your user/repo.
