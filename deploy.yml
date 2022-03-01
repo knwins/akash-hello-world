@@ -3,7 +3,7 @@ version: "2.0"
 
 services:
   web:
-    image: knwins/akash-hello-world:release-v0.1.1
+    image: fastbull/akash-hello-world:latest
     expose:
       - port: 80
         as: 80
