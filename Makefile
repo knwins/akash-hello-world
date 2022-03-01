@@ -1,4 +1,6 @@
+#AKASH_NET
 AKASH_NET := https://raw.githubusercontent.com/ovrclk/net/master/mainnet
+
 AKASH_VERSION=$(shell curl -s "$(AKASH_NET)/version.txt")
 AKASH_NODE=$(shell curl -s "$(AKASH_NET)/rpc-nodes.txt" | sort -R | head -1)
 AKASH_CHAIN_ID=$(shell curl -s "$(AKASH_NET)/chain-id.txt")
