@@ -1,8 +1,8 @@
 # Akash Hello World
 
 Example: 
-- http://8lim5k05ft9bhdm12vpvrghcr8.ingress.ewr1p0.mainnet.akashian.io
-- https://akashhw.tombeynon.co.uk ([same site](https://github.com/tombeynon/akash-hello-world/blob/master/deploy.yml#L11), uses a CNAME and cloudflare SSL)
+- https://7g26j7k4dpbdvedfmaj82dp5sc.d3akash.cloud
+- https://www.knwin.com ([same site](https://github.com/tombeynon/akash-hello-world/blob/master/deploy.yml#L11), uses a CNAME and cloudflare SSL)
 
 This is an example of how to run a simple HTML/CSS/JS site on Akash. I wrote this to document the process for myself and it's my first time working with Akash, so please treat accordingly. 
 
